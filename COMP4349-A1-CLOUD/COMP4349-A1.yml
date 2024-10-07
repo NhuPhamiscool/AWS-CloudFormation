@@ -132,8 +132,6 @@ Resources:
       EngineVersion: "8.0.35"
       LicenseModel: "general-public-license"  # Ensure it matches the license model
       DBName: !Ref DBName
-      MasterUsername: admin
-      MasterUserPassword: Re:Start!9
       MultiAZ: false
       PubliclyAccessible: True
       DBSubnetGroupName: !Ref DBSubnetGroup
